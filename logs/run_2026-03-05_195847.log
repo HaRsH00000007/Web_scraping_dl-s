@@ -1,0 +1,305 @@
+2026-03-05 19:58:47,204 [INFO] Log file: logs\run_2026-03-05_195847.log
+2026-03-05 19:58:50,555 [INFO] 
+==================================================
+2026-03-05 19:58:50,555 [INFO]   Starting state: Gujarat (GJ)
+2026-03-05 19:58:50,555 [INFO] ==================================================
+2026-03-05 19:58:50,566 [INFO] Output file created: output\Gujarat_2026-03-05_195850.xlsx
+2026-03-05 19:58:50,566 [INFO] Opening Sarathi → selecting state: Gujarat
+2026-03-05 19:59:28,570 [ERROR] open_and_select_state failed: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 131, in open_and_select_state
+    dropdown = _wait(driver, By.NAME, "stName")
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 67, in _wait
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 19:59:28,575 [ERROR] Skipping Gujarat — could not select state.
+2026-03-05 19:59:28,576 [INFO] 
+==================================================
+2026-03-05 19:59:28,576 [INFO]   Starting state: Rajasthan (RJ)
+2026-03-05 19:59:28,577 [INFO] ==================================================
+2026-03-05 19:59:28,594 [INFO] Output file created: output\Rajasthan_2026-03-05_195928.xlsx
+2026-03-05 19:59:28,595 [INFO] Opening Sarathi → selecting state: Rajasthan
+2026-03-05 20:00:07,391 [ERROR] open_and_select_state failed: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 131, in open_and_select_state
+    dropdown = _wait(driver, By.NAME, "stName")
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 67, in _wait
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:00:07,395 [ERROR] Skipping Rajasthan — could not select state.
+2026-03-05 20:00:07,396 [INFO] 
+==================================================
+2026-03-05 20:00:07,396 [INFO]   Starting state: Uttar Pradesh (UP)
+2026-03-05 20:00:07,397 [INFO] ==================================================
+2026-03-05 20:00:07,420 [INFO] Output file created: output\Uttar_Pradesh_2026-03-05_200007.xlsx
+2026-03-05 20:00:07,421 [INFO] Opening Sarathi → selecting state: Uttar Pradesh
+2026-03-05 20:00:11,631 [ERROR] open_and_select_state failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x640d4e
+	0x65f895
+	0x6c52ec
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 128, in open_and_select_state
+    _dismiss_all_popups(driver)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 102, in _dismiss_all_popups
+    btn = WebDriverWait(driver, 3).until(
+        EC.element_to_be_clickable((by, val))
+    )
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 514, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 816, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x640d4e
+	0x65f895
+	0x6c52ec
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:00:11,658 [ERROR] Skipping Uttar Pradesh — could not select state.
+2026-03-05 20:00:11,658 [INFO] 
+==================================================
+2026-03-05 20:00:11,659 [INFO]   Starting state: Bihar (BR)
+2026-03-05 20:00:11,659 [INFO] ==================================================
+2026-03-05 20:00:11,670 [INFO] Output file created: output\Bihar_2026-03-05_200011.xlsx
+2026-03-05 20:00:11,671 [INFO] Opening Sarathi → selecting state: Bihar
+2026-03-05 20:00:11,747 [WARNING]   Navigation attempt 1 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651bee
+	0x68f2d5
+	0x6be8f6
+	0x6ba491
+	0x6b9ab2
+	0x62500e
+	0x6255ae
+	0x625a8d
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x624c69
+	0x6242b0
+	0xc0876f
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:00:16,750 [WARNING]   Navigation attempt 2 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651bee
+	0x68f2d5
+	0x6be8f6
+	0x6ba491
+	0x6b9ab2
+	0x62500e
+	0x6255ae
+	0x625a8d
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x624c69
+	0x6242b0
+	0xc0876f
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:00:21,754 [WARNING]   Navigation attempt 3 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651bee
+	0x68f2d5
+	0x6be8f6
+	0x6ba491
+	0x6b9ab2
+	0x62500e
+	0x6255ae
+	0x625a8d
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x624c69
+	0x6242b0
+	0xc0876f
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:00:21,755 [ERROR]   Could not open URL after 3 attempts: https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do
+2026-03-05 20:00:21,756 [ERROR] Skipping Bihar — could not select state.
+2026-03-05 20:00:23,841 [INFO] Run complete. Total records: 0

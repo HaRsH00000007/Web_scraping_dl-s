@@ -1,0 +1,11 @@
+2026-03-10 11:12:00,196 [INFO] Log file: logs\run_2026-03-10_111200.log
+2026-03-10 11:12:14,291 [INFO] Output file created: output\Gujarat_2026-03-10_111214.xlsx
+2026-03-10 11:12:17,283 [INFO] Connected to Sarathi tab: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 11:12:17,299 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:12:24,831 [DEBUG] #6 — no alert.
+2026-03-10 11:12:24,847 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:12:30,480 [DEBUG] #7 — no alert.
+2026-03-10 11:12:30,496 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:12:36,128 [DEBUG] #8 — no alert.
+2026-03-10 11:12:36,144 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:12:38,765 [INFO] Complete. 0 records saved.

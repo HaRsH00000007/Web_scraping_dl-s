@@ -1,0 +1,308 @@
+2026-03-05 20:21:19,402 [INFO] Log file: logs\run_2026-03-05_202119.log
+2026-03-05 20:21:22,477 [INFO] 
+==================================================
+2026-03-05 20:21:22,478 [INFO]   Starting state: Gujarat (GJ)
+2026-03-05 20:21:22,479 [INFO] ==================================================
+2026-03-05 20:21:22,499 [INFO] Output file created: output\Gujarat_2026-03-05_202122.xlsx
+2026-03-05 20:21:22,500 [INFO] Opening Sarathi → selecting Gujarat (GJ)
+2026-03-05 20:21:33,716 [ERROR] open_and_select_state failed: Message: stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x663cc2
+	0x662d8c
+	0x659339
+	0x65941d
+	0x657752
+	0x65af62
+	0x6dc471
+	0x6bea3c
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 167, in open_and_select_state
+    _dismiss_all_popups(driver)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 126, in _dismiss_all_popups
+    btn = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((by, val)))
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 515, in _predicate
+    element = visibility_of(target)(driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 208, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 223, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+                      ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 308, in is_displayed
+    return self.parent.execute_script(f"/* isDisplayed */return ({isDisplayed_js}).apply(null, arguments);", self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 532, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x663cc2
+	0x662d8c
+	0x659339
+	0x65941d
+	0x657752
+	0x65af62
+	0x6dc471
+	0x6bea3c
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:21:33,725 [ERROR] Skipping Gujarat — state selection failed.
+2026-03-05 20:21:33,726 [INFO] 
+==================================================
+2026-03-05 20:21:33,726 [INFO]   Starting state: Rajasthan (RJ)
+2026-03-05 20:21:33,726 [INFO] ==================================================
+2026-03-05 20:21:33,745 [INFO] Output file created: output\Rajasthan_2026-03-05_202133.xlsx
+2026-03-05 20:21:33,746 [INFO] Opening Sarathi → selecting Rajasthan (RJ)
+2026-03-05 20:22:11,038 [ERROR] open_and_select_state failed: Alert Text: Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. 
+Message: unexpected alert open: {Alert text : Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. }
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6dbec4
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 171, in open_and_select_state
+    dropdown = _wait(driver, By.NAME, "stName")
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 93, in _wait
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 92, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 816, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. 
+Message: unexpected alert open: {Alert text : Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. }
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6dbec4
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:22:11,043 [ERROR] Skipping Rajasthan — state selection failed.
+2026-03-05 20:22:11,044 [INFO] 
+==================================================
+2026-03-05 20:22:11,045 [INFO]   Starting state: Uttar Pradesh (UP)
+2026-03-05 20:22:11,045 [INFO] ==================================================
+2026-03-05 20:22:11,075 [INFO] Output file created: output\Uttar_Pradesh_2026-03-05_202211.xlsx
+2026-03-05 20:22:11,077 [INFO] Opening Sarathi → selecting Uttar Pradesh (UP)
+2026-03-05 20:22:11,087 [WARNING] Nav attempt 1 failed: Alert Text: You are now being redirected to DL Blackog Entry Page
+Message: unexpected alert open: {Alert text : You are now being redirected to DL Blackog Entry Page}
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6dbec4
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:22:20,480 [ERROR] open_and_select_state failed: 'NoneType' object has no attribute 'is_displayed'
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 167, in open_and_select_state
+    _dismiss_all_popups(driver)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 126, in _dismiss_all_popups
+    btn = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((by, val)))
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 515, in _predicate
+    element = visibility_of(target)(driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 208, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 223, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+                      ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+2026-03-05 20:22:20,485 [ERROR] Skipping Uttar Pradesh — state selection failed.
+2026-03-05 20:22:20,487 [INFO] 
+==================================================
+2026-03-05 20:22:20,488 [INFO]   Starting state: Bihar (BR)
+2026-03-05 20:22:20,489 [INFO] ==================================================
+2026-03-05 20:22:20,533 [INFO] Output file created: output\Bihar_2026-03-05_202220.xlsx
+2026-03-05 20:22:20,535 [INFO] Opening Sarathi → selecting Bihar (BR)
+2026-03-05 20:22:20,539 [WARNING] Nav attempt 1 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6308d3
+	0x6c50fb
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:22:25,543 [WARNING] Nav attempt 2 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6308d3
+	0x6c50fb
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:22:30,549 [WARNING] Nav attempt 3 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6308d3
+	0x6c50fb
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:22:30,550 [ERROR] Could not open URL after 3 attempts: https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do
+2026-03-05 20:22:30,550 [ERROR] Skipping Bihar — state selection failed.
+2026-03-05 20:22:32,680 [INFO] Run complete. Total: 0

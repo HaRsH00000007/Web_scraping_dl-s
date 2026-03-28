@@ -1,0 +1,7 @@
+2026-03-06 13:50:34,926 [INFO] Log file: logs\run_2026-03-06_135034.log
+2026-03-06 13:50:40,555 [INFO] Output file created: output\Gujarat_2026-03-06_135040.xlsx
+2026-03-06 13:50:49,095 [INFO] Browser opened on Sarathi homepage.
+2026-03-06 13:51:32,056 [DEBUG] Alert captured: Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. 
+2026-03-06 13:51:32,175 [DEBUG] Saved: not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. | 
+2026-03-06 13:51:32,209 [INFO] Browser closed — stopping.
+2026-03-06 13:51:35,505 [INFO] Complete. 1 records saved.

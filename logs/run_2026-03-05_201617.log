@@ -1,0 +1,237 @@
+2026-03-05 20:16:17,799 [INFO] Log file: logs\run_2026-03-05_201617.log
+2026-03-05 20:16:20,907 [INFO] 
+==================================================
+2026-03-05 20:16:20,907 [INFO]   Starting state: Gujarat (GJ)
+2026-03-05 20:16:20,908 [INFO] ==================================================
+2026-03-05 20:16:20,922 [INFO] Output file created: output\Gujarat_2026-03-05_201620.xlsx
+2026-03-05 20:16:20,922 [INFO] Opening Sarathi → selecting Gujarat (GJ)
+2026-03-05 20:17:02,816 [ERROR] open_and_select_state failed: Alert Text: Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. 
+Message: unexpected alert open: {Alert text : Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. }
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6dbec4
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 171, in open_and_select_state
+    dropdown = _wait(driver, By.NAME, "stName")
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 93, in _wait
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 92, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 816, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. 
+Message: unexpected alert open: {Alert text : Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. }
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6dbec4
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:17:02,829 [ERROR] Skipping Gujarat — state selection failed.
+2026-03-05 20:17:02,830 [INFO] 
+==================================================
+2026-03-05 20:17:02,831 [INFO]   Starting state: Rajasthan (RJ)
+2026-03-05 20:17:02,832 [INFO] ==================================================
+2026-03-05 20:17:02,879 [INFO] Output file created: output\Rajasthan_2026-03-05_201702.xlsx
+2026-03-05 20:17:02,880 [INFO] Opening Sarathi → selecting Rajasthan (RJ)
+2026-03-05 20:17:02,892 [WARNING] Nav attempt 1 failed: Alert Text: You are now being redirected to DL Blackog Entry Page
+Message: unexpected alert open: {Alert text : You are now being redirected to DL Blackog Entry Page}
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6dbec4
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:17:13,088 [ERROR] open_and_select_state failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x640d4e
+	0x65f895
+	0x6c52ec
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 167, in open_and_select_state
+    _dismiss_all_popups(driver)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 126, in _dismiss_all_popups
+    btn = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((by, val)))
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 514, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 816, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x640d4e
+	0x65f895
+	0x6c52ec
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:17:13,094 [ERROR] Skipping Rajasthan — state selection failed.
+2026-03-05 20:17:13,094 [INFO] 
+==================================================
+2026-03-05 20:17:13,095 [INFO]   Starting state: Uttar Pradesh (UP)
+2026-03-05 20:17:13,095 [INFO] ==================================================
+2026-03-05 20:17:13,113 [INFO] Output file created: output\Uttar_Pradesh_2026-03-05_201713.xlsx
+2026-03-05 20:17:13,113 [INFO] Opening Sarathi → selecting Uttar Pradesh (UP)
+2026-03-05 20:17:13,280 [WARNING] Nav attempt 1 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651bee
+	0x68f2d5
+	0x6be8f6
+	0x6ba491
+	0x6b9ab2
+	0x62500e
+	0x6255ae
+	0x625a8d
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x624c69
+	0x6242b0
+	0xc0876f
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:17:18,283 [WARNING] Nav attempt 2 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651bee
+	0x68f2d5
+	0x6be8f6
+	0x6ba491
+	0x6b9ab2
+	0x62500e
+	0x6255ae
+	0x625a8d
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x624c69
+	0x6242b0
+	0xc0876f
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+

@@ -1,0 +1,63 @@
+2026-03-10 11:01:09,167 [INFO] Log file: logs\run_2026-03-10_110109.log
+2026-03-10 11:02:18,766 [INFO] Output file created: output\Gujarat_2026-03-10_110218.xlsx
+2026-03-10 11:02:21,891 [INFO] Connected to Sarathi tab: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 11:02:21,926 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:26,510 [DEBUG] #14 — no alert.
+2026-03-10 11:02:26,527 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:31,087 [DEBUG] #15 — no alert.
+2026-03-10 11:02:31,110 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:35,773 [DEBUG] #16 — no alert.
+2026-03-10 11:02:35,791 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:40,603 [DEBUG] #17 — no alert.
+2026-03-10 11:02:40,624 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:45,211 [DEBUG] #18 — no alert.
+2026-03-10 11:02:45,240 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:46,996 [DEBUG] Alert #19: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 11:02:47,000 [DEBUG] #19 — dismissed SCOSTA dialog.
+2026-03-10 11:02:47,040 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:47,563 [DEBUG] Alert #20: Applicant Details:
+ DL Number:GJ01 20030000019  
+ Name:MUNTYAJALI  I  SAIYAD 
+ Date of Birth:1969-04-01 
+ Application Number:1629097822
+2026-03-10 11:02:47,661 [DEBUG] Saved: GJ01 20030000019 | MUNTYAJALI  I  SAIYAD
+2026-03-10 11:02:47,970 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:49,077 [DEBUG] Alert #21: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 11:02:49,081 [DEBUG] #21 — dismissed SCOSTA dialog.
+2026-03-10 11:02:49,116 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:49,641 [DEBUG] Alert #22: Applicant Details:
+ DL Number:GJ01 20030000021  
+ Name:DHAVAL  S  PATEL 
+ Date of Birth:1985-06-05 
+ Application Number:3601246023
+2026-03-10 11:02:49,690 [DEBUG] Saved: GJ01 20030000021 | DHAVAL  S  PATEL
+2026-03-10 11:02:49,711 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:50,855 [DEBUG] Alert #23: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 11:02:50,858 [DEBUG] #23 — dismissed SCOSTA dialog.
+2026-03-10 11:02:50,891 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:51,415 [DEBUG] Alert #24: Applicant Details:
+ DL Number:GJ01 20030000023  
+ Name:HIREN B RAVAL 
+ Date of Birth:1983-12-23 
+ Application Number:3257678218
+2026-03-10 11:02:51,455 [DEBUG] Saved: GJ01 20030000023 | HIREN B RAVAL
+2026-03-10 11:02:51,470 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:02:56,029 [DEBUG] #25 — no alert.
+2026-03-10 11:02:56,048 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:00,963 [DEBUG] #26 — no alert.
+2026-03-10 11:03:00,981 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:05,541 [DEBUG] #27 — no alert.
+2026-03-10 11:03:05,560 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:10,278 [DEBUG] #28 — no alert.
+2026-03-10 11:03:10,292 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:14,857 [DEBUG] #29 — no alert.
+2026-03-10 11:03:14,875 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:19,431 [DEBUG] #30 — no alert.
+2026-03-10 11:03:19,454 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:24,012 [DEBUG] #31 — no alert.
+2026-03-10 11:03:24,032 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:28,596 [DEBUG] #32 — no alert.
+2026-03-10 11:03:28,621 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:33,221 [DEBUG] #33 — no alert.
+2026-03-10 11:03:33,244 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:03:37,325 [INFO] Complete. 3 records saved.

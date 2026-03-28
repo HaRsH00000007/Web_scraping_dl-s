@@ -1,0 +1,88 @@
+2026-03-06 13:23:34,809 [INFO] Log file: logs\run_2026-03-06_132334.log
+2026-03-06 13:23:34,810 [INFO] 
+==================================================
+2026-03-06 13:23:34,810 [INFO]   Starting: Gujarat (GJ)
+2026-03-06 13:23:34,810 [INFO] ==================================================
+2026-03-06 13:23:34,842 [INFO] Output file created: output\Gujarat_2026-03-06_132334.xlsx
+2026-03-06 13:23:46,261 [INFO] Opening Sarathi homepage...
+2026-03-06 13:23:46,462 [ERROR] Could not open browser: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1267dd3
+	0x1267e14
+	0x1071db0
+	0x106f2be
+	0x10623d4
+	0x1063e2c
+	0x1062864
+	0x10621a5
+	0x1061ea5
+	0x105ffb8
+	0x10606ca
+	0x107583e
+	0x10fc174
+	0x10dea3c
+	0x10fb621
+	0x10de7d6
+	0x10b0049
+	0x10b0e04
+	0x14c6924
+	0x14c1bf7
+	0x14df5a0
+	0x1280f58
+	0x128891d
+	0x1270648
+	0x1270812
+	0x125a21a
+	0x77085d49
+	0x7780d81b
+	0x7780d7a1
+
+2026-03-06 13:23:46,464 [ERROR] Skipping Gujarat — state selection failed.
+2026-03-06 13:23:48,652 [INFO] 
+==================================================
+2026-03-06 13:23:48,654 [INFO]   Starting: Rajasthan (RJ)
+2026-03-06 13:23:48,654 [INFO] ==================================================
+2026-03-06 13:23:48,666 [INFO] Output file created: output\Rajasthan_2026-03-06_132348.xlsx
+2026-03-06 13:23:52,312 [INFO] Opening Sarathi homepage...
+2026-03-06 13:23:52,539 [ERROR] Could not open browser: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1267dd3
+	0x1267e14
+	0x1071db0
+	0x106f2be
+	0x10623d4
+	0x1063e2c
+	0x1062864
+	0x10621a5
+	0x1061ea5
+	0x105ffb8
+	0x10606ca
+	0x107583e
+	0x10fc174
+	0x10dea3c
+	0x10fb621
+	0x10de7d6
+	0x10b0049
+	0x10b0e04
+	0x14c6924
+	0x14c1bf7
+	0x14df5a0
+	0x1280f58
+	0x128891d
+	0x1270648
+	0x1270812
+	0x125a21a
+	0x77085d49
+	0x7780d81b
+	0x7780d7a1
+
+2026-03-06 13:23:52,540 [ERROR] Skipping Rajasthan — state selection failed.
+2026-03-06 13:23:54,727 [INFO] 
+==================================================
+2026-03-06 13:23:54,727 [INFO]   Starting: Uttar Pradesh (UP)
+2026-03-06 13:23:54,727 [INFO] ==================================================
+2026-03-06 13:23:54,738 [INFO] Output file created: output\Uttar_Pradesh_2026-03-06_132354.xlsx

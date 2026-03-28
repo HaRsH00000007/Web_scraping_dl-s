@@ -1,0 +1,6 @@
+2026-03-14 10:21:16,721 [INFO] Log file: logs\run_2026-03-14_102116.log
+2026-03-14 10:21:23,341 [INFO] Output file created: output\guj_2026-03-14_102123.xlsx
+2026-03-14 10:21:25,891 [INFO] Connected: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-14 10:21:37,517 [DEBUG] Saved: GJ01 20110000003 | MADANSINH  L  CHUDAVAT
+2026-03-14 10:21:37,584 [INFO] Browser closed.
+2026-03-14 10:21:37,588 [INFO] Complete. 1 records saved.

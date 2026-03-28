@@ -1,0 +1,44 @@
+2026-03-10 10:21:09,807 [INFO] Log file: logs\run_2026-03-10_102109.log
+2026-03-10 10:21:14,511 [INFO] Output file created: output\Gujarat_2026-03-10_102114.xlsx
+2026-03-10 10:21:17,852 [INFO] Found Sarathi tab: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 10:21:50,476 [DEBUG] Alert: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:21:50,498 [DEBUG] Dismissed 'Licence Already Issued' dialog.
+2026-03-10 10:21:51,097 [DEBUG] Alert: Applicant Details:
+ DL Number:GJ01 20020000001  
+ Name:JITENDRAKUMAR SINGH RAJENDRA 
+ Date of Birth:1981-12-08 
+ Application Number:421319020
+2026-03-10 10:21:51,250 [DEBUG] Saved: GJ01 20020000001 | JITENDRAKUMAR SINGH RAJENDRA
+2026-03-10 10:21:54,290 [DEBUG] Alert: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:21:54,320 [DEBUG] Dismissed 'Licence Already Issued' dialog.
+2026-03-10 10:21:54,846 [DEBUG] Alert: Applicant Details:
+ DL Number:GJ01 20020000002  
+ Name:IRFANAHMEDKHAN W PATHAN 
+ Date of Birth:1981-10-08 
+ Application Number:1307007920
+2026-03-10 10:21:54,928 [DEBUG] Saved: GJ01 20020000002 | IRFANAHMEDKHAN W PATHAN
+2026-03-10 10:21:57,476 [DEBUG] Alert: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:21:57,499 [DEBUG] Dismissed 'Licence Already Issued' dialog.
+2026-03-10 10:21:58,025 [DEBUG] Alert: Applicant Details:
+ DL Number:GJ01 20020000003  
+ Name:KAMLESH  M  PARMAR 
+ Date of Birth:1974-07-28 
+ Application Number:4053214120
+2026-03-10 10:21:58,106 [DEBUG] Saved: GJ01 20020000003 | KAMLESH  M  PARMAR
+2026-03-10 10:22:00,439 [DEBUG] Alert: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:22:00,475 [DEBUG] Dismissed 'Licence Already Issued' dialog.
+2026-03-10 10:22:01,006 [DEBUG] Alert: Applicant Details:
+ DL Number:GJ01 20020000004  
+ Name:VIJAYSINH  P  PARMAR 
+ Date of Birth:1975-02-23 
+ Application Number:66502502
+2026-03-10 10:22:01,121 [DEBUG] Saved: GJ01 20020000004 | VIJAYSINH  P  PARMAR
+2026-03-10 10:22:04,545 [DEBUG] Alert: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:22:04,579 [DEBUG] Dismissed 'Licence Already Issued' dialog.
+2026-03-10 10:22:05,107 [DEBUG] Alert: Applicant Details:
+ DL Number:GJ01 20020000005  
+ Name:LALJIBHAI  C  PATEL 
+ Date of Birth:1961-09-27 
+ Application Number:15576922
+2026-03-10 10:22:05,193 [DEBUG] Saved: GJ01 20020000005 | LALJIBHAI  C  PATEL
+2026-03-10 10:23:27,790 [INFO] Complete. 5 records saved.

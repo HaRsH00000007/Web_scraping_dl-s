@@ -1,0 +1,102 @@
+2026-03-05 20:24:21,050 [INFO] Log file: logs\run_2026-03-05_202421.log
+2026-03-05 20:24:21,051 [INFO] 
+==================================================
+2026-03-05 20:24:21,052 [INFO]   Starting: Gujarat (GJ)
+2026-03-05 20:24:21,052 [INFO] ==================================================
+2026-03-05 20:24:21,063 [INFO] Output file created: output\Gujarat_2026-03-05_202421.xlsx
+2026-03-05 20:24:23,919 [INFO] Opening Sarathi → selecting Gujarat (GJ)
+2026-03-05 20:24:29,389 [INFO] State selected via JS: Gujarat (GJ)
+2026-03-05 20:24:31,576 [INFO] Redirected to: https://sarathi.parivahan.gov.in/sarathiservice/stateSelectBean.do
+2026-03-05 20:24:31,577 [INFO] Navigating directly to backlog URL...
+2026-03-05 20:24:31,577 [INFO] URL: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-05 20:24:42,559 [ERROR] navigate_to_dl_form failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x640d4e
+	0x65f895
+	0x6c52ec
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 230, in navigate_to_dl_form
+    _wait(driver, By.XPATH,
+    ~~~~~^^^^^^^^^^^^^^^^^^
+        "//input[contains(@name,'numericLicNo')] | "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "//select[contains(@name,'applyToState')]",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=10
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 93, in _wait
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 92, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 816, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x640d4e
+	0x65f895
+	0x6c52ec
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:24:42,570 [ERROR] Skipping Gujarat — navigation failed.
+2026-03-05 20:24:44,723 [INFO] 
+==================================================
+2026-03-05 20:24:44,723 [INFO]   Starting: Rajasthan (RJ)
+2026-03-05 20:24:44,724 [INFO] ==================================================
+2026-03-05 20:24:44,733 [INFO] Output file created: output\Rajasthan_2026-03-05_202444.xlsx

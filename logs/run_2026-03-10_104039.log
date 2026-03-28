@@ -1,0 +1,5 @@
+2026-03-10 10:40:39,999 [INFO] Log file: logs\run_2026-03-10_104039.log
+2026-03-10 10:40:49,588 [INFO] Output file created: output\Gujarat_2026-03-10_104049.xlsx
+2026-03-10 10:40:52,347 [INFO] Connected to Sarathi tab: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 10:41:11,518 [INFO] Browser closed — stopping.
+2026-03-10 10:41:11,520 [INFO] Complete. 0 records saved.

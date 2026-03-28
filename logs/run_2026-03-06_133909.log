@@ -1,0 +1,32 @@
+2026-03-06 13:39:09,913 [INFO] Log file: logs\run_2026-03-06_133909.log
+2026-03-06 13:39:20,428 [INFO] Output file created: output\Gujarat_2026-03-06_133920.xlsx
+2026-03-06 13:39:27,582 [INFO] Browser opened.
+2026-03-06 13:41:24,316 [WARNING] Watcher error: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1267dd3
+	0x1267e14
+	0x1071bee
+	0x1061d33
+	0x1060f0d
+	0x107f895
+	0x10e52ec
+	0x109363e
+	0x10de7d6
+	0x10b0049
+	0x10b0e04
+	0x14c6924
+	0x14c1bf7
+	0x14df5a0
+	0x1280f58
+	0x128891d
+	0x1270648
+	0x1270812
+	0x125a21a
+	0x77085d49
+	0x7780d81b
+	0x7780d7a1
+
+2026-03-06 13:41:25,322 [INFO] Browser closed — stopping.

@@ -1,0 +1,32 @@
+2026-03-06 13:41:37,497 [INFO] Log file: logs\run_2026-03-06_134137.log
+2026-03-06 13:41:41,485 [INFO] Output file created: output\Gujarat_2026-03-06_134141.xlsx
+2026-03-06 13:41:45,941 [INFO] Browser opened.
+2026-03-06 13:41:53,673 [WARNING] Watcher error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1267dd3
+	0x1267e14
+	0x1071db0
+	0x1060d4e
+	0x107f895
+	0x10e52ec
+	0x109363e
+	0x10de7d6
+	0x10b0049
+	0x10b0e04
+	0x14c6924
+	0x14c1bf7
+	0x14df5a0
+	0x1280f58
+	0x128891d
+	0x1270648
+	0x1270812
+	0x125a21a
+	0x77085d49
+	0x7780d81b
+	0x7780d7a1
+
+2026-03-06 13:41:54,681 [INFO] Browser closed — stopping.
+2026-03-06 13:41:56,791 [INFO] Complete. 0 records saved.

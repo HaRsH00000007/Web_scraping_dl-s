@@ -1,0 +1,6 @@
+2026-03-21 13:41:01,981 [INFO] Log file: logs\run_2026-03-21_134101.log
+2026-03-21 13:41:39,169 [INFO] Output file created: output\Gujaratii_2026-03-21_134139.xlsx
+2026-03-21 13:43:37,925 [INFO] Connected: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-21 13:43:44,921 [DEBUG] Saved: GJ01 20120000005 | PRAGNA  M  MAVADIYA
+2026-03-21 13:43:44,959 [INFO] Browser closed.
+2026-03-21 13:43:44,960 [INFO] Complete. 1 records saved.

@@ -1,0 +1,10 @@
+2026-03-10 11:17:15,639 [INFO] Log file: logs\run_2026-03-10_111715.log
+2026-03-10 11:17:32,273 [INFO] Output file created: output\Gujarat_2026-03-10_111732.xlsx
+2026-03-10 11:17:35,210 [INFO] Connected to Sarathi tab: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 11:17:35,239 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:17:41,045 [DEBUG] #9 — no alert.
+2026-03-10 11:17:41,060 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:17:42,771 [DEBUG] Alert #10: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 11:17:42,785 [DEBUG] #10 — dismissed SCOSTA dialog.
+2026-03-10 11:17:42,795 [INFO] Browser closed — stopping.
+2026-03-10 11:17:42,796 [INFO] Complete. 0 records saved.

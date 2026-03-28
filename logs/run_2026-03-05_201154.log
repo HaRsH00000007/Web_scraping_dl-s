@@ -1,0 +1,127 @@
+2026-03-05 20:11:55,000 [INFO] Log file: logs\run_2026-03-05_201154.log
+2026-03-05 20:11:58,236 [INFO] 
+==================================================
+2026-03-05 20:11:58,236 [INFO]   Starting state: Gujarat (GJ)
+2026-03-05 20:11:58,236 [INFO] ==================================================
+2026-03-05 20:11:58,254 [INFO] Output file created: output\Gujarat_2026-03-05_201158.xlsx
+2026-03-05 20:11:58,254 [INFO] Opening Sarathi → selecting Gujarat (GJ)
+2026-03-05 20:12:42,136 [ERROR] open_and_select_state failed: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 171, in open_and_select_state
+    dropdown = _wait(driver, By.NAME, "stName")
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 93, in _wait
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:12:42,143 [ERROR] Skipping Gujarat — state selection failed.
+2026-03-05 20:12:42,144 [INFO] 
+==================================================
+2026-03-05 20:12:42,144 [INFO]   Starting state: Rajasthan (RJ)
+2026-03-05 20:12:42,160 [INFO] ==================================================
+2026-03-05 20:12:42,205 [INFO] Output file created: output\Rajasthan_2026-03-05_201242.xlsx
+2026-03-05 20:12:42,206 [INFO] Opening Sarathi → selecting Rajasthan (RJ)
+2026-03-05 20:12:47,156 [ERROR] open_and_select_state failed: 'NoneType' object has no attribute 'is_displayed'
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 167, in open_and_select_state
+    _dismiss_all_popups(driver)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 126, in _dismiss_all_popups
+    btn = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((by, val)))
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 515, in _predicate
+    element = visibility_of(target)(driver)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 208, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 223, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+                      ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+2026-03-05 20:12:47,164 [ERROR] Skipping Rajasthan — state selection failed.
+2026-03-05 20:12:47,165 [INFO] 
+==================================================
+2026-03-05 20:12:47,166 [INFO]   Starting state: Uttar Pradesh (UP)
+2026-03-05 20:12:47,167 [INFO] ==================================================
+2026-03-05 20:12:47,196 [INFO] Output file created: output\Uttar_Pradesh_2026-03-05_201247.xlsx
+2026-03-05 20:12:47,198 [INFO] Opening Sarathi → selecting Uttar Pradesh (UP)
+2026-03-05 20:12:47,202 [WARNING] Nav attempt 1 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x6308d3
+	0x6c50fb
+	0x6db0d9
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+

@@ -1,0 +1,161 @@
+2026-03-05 20:27:44,102 [INFO] Log file: logs\run_2026-03-05_202744.log
+2026-03-05 20:27:44,103 [INFO] 
+==================================================
+2026-03-05 20:27:44,103 [INFO]   Starting: Gujarat (GJ)
+2026-03-05 20:27:44,103 [INFO] ==================================================
+2026-03-05 20:27:44,122 [INFO] Output file created: output\Gujarat_2026-03-05_202744.xlsx
+2026-03-05 20:27:48,762 [INFO] Opening Sarathi homepage...
+2026-03-05 20:27:53,045 [DEBUG] Popup dismissed.
+2026-03-05 20:27:54,207 [INFO] State set to: Gujarat (GJ)
+2026-03-05 20:27:57,706 [INFO] Redirected to: https://sarathi.parivahan.gov.in/sarathiservice/stateSelectBean.do
+2026-03-05 20:27:58,915 [DEBUG] Clicked Driving Licence menu.
+2026-03-05 20:28:07,116 [ERROR] navigate_to_dl_form failed: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 197, in navigate_to_dl_form
+    svc = _wait_click(driver, By.XPATH,
+        "//a[contains(text(),'Services On DL')] | "
+        "//a[contains(text(),'Services on DL')]",
+        timeout=8
+    )
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 131, in _wait_click
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.element_to_be_clickable((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:28:07,121 [ERROR] Skipping Gujarat — navigation failed.
+2026-03-05 20:28:09,959 [INFO] 
+==================================================
+2026-03-05 20:28:09,960 [INFO]   Starting: Rajasthan (RJ)
+2026-03-05 20:28:09,960 [INFO] ==================================================
+2026-03-05 20:28:09,978 [INFO] Output file created: output\Rajasthan_2026-03-05_202809.xlsx
+2026-03-05 20:28:13,687 [INFO] Opening Sarathi homepage...
+2026-03-05 20:28:20,460 [INFO] State set to: Rajasthan (RJ)
+2026-03-05 20:28:24,182 [INFO] Redirected to: https://sarathi.parivahan.gov.in/sarathiservice/stateSelectBean.do
+2026-03-05 20:28:25,542 [DEBUG] Clicked Driving Licence menu.
+2026-03-05 20:28:28,534 [DEBUG] Clicked Services On DL.
+2026-03-05 20:28:36,577 [ERROR] navigate_to_dl_form failed: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 207, in navigate_to_dl_form
+    cont = _wait_click(driver, By.XPATH,
+        "//input[@value='Continue'] | //button[contains(text(),'Continue')]",
+        timeout=8
+    )
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 131, in _wait_click
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.element_to_be_clickable((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 20:28:36,585 [ERROR] Skipping Rajasthan — navigation failed.
+2026-03-05 20:28:38,886 [INFO] 
+==================================================
+2026-03-05 20:28:38,886 [INFO]   Starting: Uttar Pradesh (UP)
+2026-03-05 20:28:38,887 [INFO] ==================================================
+2026-03-05 20:28:38,906 [INFO] Output file created: output\Uttar_Pradesh_2026-03-05_202838.xlsx

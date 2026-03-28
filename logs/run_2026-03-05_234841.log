@@ -1,0 +1,8 @@
+2026-03-05 23:48:41,070 [INFO] Log file: logs\run_2026-03-05_234841.log
+2026-03-05 23:48:41,070 [INFO] 
+==================================================
+2026-03-05 23:48:41,071 [INFO]   Starting: Gujarat (GJ)
+2026-03-05 23:48:41,071 [INFO] ==================================================
+2026-03-05 23:48:41,097 [INFO] Output file created: output\Gujarat_2026-03-05_234841.xlsx
+2026-03-05 23:48:44,763 [INFO] Opening Sarathi homepage...
+2026-03-05 23:48:49,404 [INFO] Browser opened. URL: https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do

@@ -1,0 +1,48 @@
+2026-03-10 11:22:10,936 [INFO] Log file: logs\run_2026-03-10_112210.log
+2026-03-10 11:22:21,135 [INFO] Output file created: output\Gujarat_2026-03-10_112221.xlsx
+2026-03-10 11:22:25,312 [INFO] Connected: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 11:22:29,755 [DEBUG] Saved: GJ01 20010000003 | PATEL YAKIN NARENDRABHAI
+2026-03-10 11:22:32,019 [DEBUG] Saved: GJ01 20010000004 | BHAVESH  G  SUKHADIA
+2026-03-10 11:22:57,162 [DEBUG] #5 skipped: Numeric Licence Number should not be empty and  must be grea
+2026-03-10 11:23:04,329 [DEBUG] #6 skipped: Numeric Licence Number should not be empty and  must be grea
+2026-03-10 11:23:07,424 [DEBUG] Saved: GJ01 20010000007 | KAMLESH  S  SHAH
+2026-03-10 11:23:09,384 [DEBUG] Saved: GJ01 20010000008 | PARESH  B  SUTHAR
+2026-03-10 11:23:11,503 [DEBUG] Saved: GJ01 20010000009 | JITENDRA KUMAR  SUTHAR
+2026-03-10 11:23:13,310 [DEBUG] Saved: GJ01 20010000010 | VINOD  B  MARSHETWAR
+2026-03-10 11:23:16,498 [DEBUG] Saved: GJ01 20010000011 | ARPAN  J  DAVE
+2026-03-10 11:23:18,698 [DEBUG] Saved: GJ01 20010000012 | PARMAR VALMIK ARJUNBHAI
+2026-03-10 11:23:20,747 [DEBUG] Saved: GJ01 20010000013 | PATEL MITTAL ARVINDBHAI
+2026-03-10 11:23:22,789 [DEBUG] Saved: GJ01 20010000014 | PATEL YAKIN NARENDRABHAI
+2026-03-10 11:23:34,777 [DEBUG] #15 skipped: Numeric Licence Number should not be empty and  must be grea
+2026-03-10 11:23:48,005 [DEBUG] #16 skipped: Numeric Licence Number should not be empty and  must be grea
+2026-03-10 11:23:59,363 [DEBUG] #17 skipped: Numeric Licence Number should not be empty and  must be grea
+2026-03-10 11:24:11,904 [DEBUG] #18 skipped: Numeric Licence Number should not be empty and  must be grea
+2026-03-10 11:24:19,540 [WARNING] #19 error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xc80d4e
+	0xc9f895
+	0xd052ec
+	0xcb363e
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x76595d49
+	0x779cd81b
+	0x779cd7a1
+
+2026-03-10 11:24:20,545 [INFO] Browser closed.
+2026-03-10 11:24:20,546 [INFO] Complete. 10 records saved.

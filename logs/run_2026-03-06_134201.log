@@ -1,0 +1,30 @@
+2026-03-06 13:42:01,697 [INFO] Log file: logs\run_2026-03-06_134201.log
+2026-03-06 13:42:06,452 [INFO] Output file created: output\Gujarat_2026-03-06_134206.xlsx
+2026-03-06 13:42:10,320 [INFO] Browser opened.
+2026-03-06 13:42:13,453 [WARNING] Watcher error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1267dd3
+	0x1267e14
+	0x1071db0
+	0x10508d3
+	0x10e50fb
+	0x109363e
+	0x10de7d6
+	0x10b0049
+	0x10b0e04
+	0x14c6924
+	0x14c1bf7
+	0x14df5a0
+	0x1280f58
+	0x128891d
+	0x1270648
+	0x1270812
+	0x125a21a
+	0x77085d49
+	0x7780d81b
+	0x7780d7a1
+
+2026-03-06 13:42:14,461 [INFO] Browser closed — stopping.

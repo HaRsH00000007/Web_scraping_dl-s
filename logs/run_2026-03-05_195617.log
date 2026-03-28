@@ -1,0 +1,79 @@
+2026-03-05 19:56:17,217 [INFO] Log file: logs\run_2026-03-05_195617.log
+2026-03-05 19:56:20,534 [INFO] 
+==================================================
+2026-03-05 19:56:20,534 [INFO]   Starting state: Gujarat (GJ)
+2026-03-05 19:56:20,534 [INFO] ==================================================
+2026-03-05 19:56:20,551 [INFO] Output file created: output\Gujarat_2026-03-05_195620.xlsx
+2026-03-05 19:56:20,551 [INFO] Opening Sarathi → selecting state: Gujarat
+2026-03-05 19:57:00,170 [ERROR] open_and_select_state failed: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+Traceback (most recent call last):
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 131, in open_and_select_state
+    dropdown = _wait(driver, By.NAME, "stName")
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\scraper.py", line 67, in _wait
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dharmendra\OneDrive\Desktop\Agents\Web_scraper\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x69c20a
+	0x69c4ab
+	0x6dde32
+	0x6bea84
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 19:57:00,176 [ERROR] Skipping Gujarat — could not select state.
+2026-03-05 19:57:00,176 [INFO] 
+==================================================
+2026-03-05 19:57:00,176 [INFO]   Starting state: Rajasthan (RJ)
+2026-03-05 19:57:00,177 [INFO] ==================================================
+2026-03-05 19:57:00,196 [INFO] Output file created: output\Rajasthan_2026-03-05_195700.xlsx
+2026-03-05 19:57:00,197 [INFO] Opening Sarathi → selecting state: Rajasthan
+2026-03-05 19:57:23,351 [DEBUG] State options available: ['---Select State Name---', 'Andaman and Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chandigarh', 'Chhattisgarh', 'Delhi', 'Goa', 'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jammu and Kashmir', 'Jharkhand', 'Karnataka', 'Kerala', 'Ladakh', 'Lakshadweep(UT)', 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Pondicherry', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu', 'Telangana', 'Tripura', 'UT of DNH and DD', 'Uttarakhand', 'Uttar Pradesh', 'West Bengal']
+2026-03-05 19:57:23,602 [INFO] Selected state: 'Rajasthan'

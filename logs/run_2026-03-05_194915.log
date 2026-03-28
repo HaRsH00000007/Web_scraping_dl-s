@@ -1,0 +1,166 @@
+2026-03-05 19:49:15,620 [INFO] Log file: logs\run_2026-03-05_194915.log
+2026-03-05 19:49:26,388 [INFO] 
+==================================================
+2026-03-05 19:49:26,389 [INFO]   Starting state: Gujarat (GJ)
+2026-03-05 19:49:26,389 [INFO] ==================================================
+2026-03-05 19:49:26,411 [INFO] Output file created: output\Gujarat_2026-03-05_194926.xlsx
+2026-03-05 19:49:26,412 [INFO] Opening Sarathi → selecting state: Gujarat
+2026-03-05 19:49:26,575 [ERROR] State selection failed: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x64f2be
+	0x6423d4
+	0x643e2c
+	0x642864
+	0x6421a5
+	0x641ea5
+	0x63ffb8
+	0x6406ca
+	0x65583e
+	0x6dc174
+	0x6bea3c
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 19:49:26,576 [ERROR] Skipping Gujarat — could not select state.
+2026-03-05 19:49:26,576 [INFO] 
+==================================================
+2026-03-05 19:49:26,577 [INFO]   Starting state: Rajasthan (RJ)
+2026-03-05 19:49:26,577 [INFO] ==================================================
+2026-03-05 19:49:26,590 [INFO] Output file created: output\Rajasthan_2026-03-05_194926.xlsx
+2026-03-05 19:49:26,590 [INFO] Opening Sarathi → selecting state: Rajasthan
+2026-03-05 19:49:26,675 [ERROR] State selection failed: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x64f2be
+	0x6423d4
+	0x643e2c
+	0x642864
+	0x6421a5
+	0x641ea5
+	0x63ffb8
+	0x6406ca
+	0x65583e
+	0x6dc174
+	0x6bea3c
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 19:49:26,676 [ERROR] Skipping Rajasthan — could not select state.
+2026-03-05 19:49:26,677 [INFO] 
+==================================================
+2026-03-05 19:49:26,677 [INFO]   Starting state: Uttar Pradesh (UP)
+2026-03-05 19:49:26,677 [INFO] ==================================================
+2026-03-05 19:49:26,700 [INFO] Output file created: output\Uttar_Pradesh_2026-03-05_194926.xlsx
+2026-03-05 19:49:26,700 [INFO] Opening Sarathi → selecting state: Uttar Pradesh
+2026-03-05 19:49:26,782 [ERROR] State selection failed: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x64f2be
+	0x6423d4
+	0x643e2c
+	0x642864
+	0x6421a5
+	0x641ea5
+	0x63ffb8
+	0x6406ca
+	0x65583e
+	0x6dc174
+	0x6bea3c
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 19:49:26,783 [ERROR] Skipping Uttar Pradesh — could not select state.
+2026-03-05 19:49:26,783 [INFO] 
+==================================================
+2026-03-05 19:49:26,783 [INFO]   Starting state: Bihar (BR)
+2026-03-05 19:49:26,784 [INFO] ==================================================
+2026-03-05 19:49:26,800 [INFO] Output file created: output\Bihar_2026-03-05_194926.xlsx
+2026-03-05 19:49:26,801 [INFO] Opening Sarathi → selecting state: Bihar
+2026-03-05 19:49:26,861 [ERROR] State selection failed: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=145.0.7632.119)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x847dd3
+	0x847e14
+	0x651db0
+	0x64f2be
+	0x6423d4
+	0x643e2c
+	0x642864
+	0x6421a5
+	0x641ea5
+	0x63ffb8
+	0x6406ca
+	0x65583e
+	0x6dc174
+	0x6bea3c
+	0x6db621
+	0x6be7d6
+	0x690049
+	0x690e04
+	0xaa6924
+	0xaa1bf7
+	0xabf5a0
+	0x860f58
+	0x86891d
+	0x850648
+	0x850812
+	0x83a21a
+	0x75885d49
+	0x76fed81b
+	0x76fed7a1
+
+2026-03-05 19:49:26,862 [ERROR] Skipping Bihar — could not select state.
+2026-03-05 19:49:29,030 [INFO] Run complete. Total records: 0

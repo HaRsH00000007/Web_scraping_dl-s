@@ -1,0 +1,24 @@
+2026-03-10 10:47:02,811 [INFO] Log file: logs\run_2026-03-10_104702.log
+2026-03-10 10:47:11,378 [INFO] Output file created: output\Gujarat_2026-03-10_104711.xlsx
+2026-03-10 10:47:14,495 [INFO] Connected to Sarathi tab: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 10:47:14,659 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:15,370 [DEBUG] Alert #1: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:47:15,377 [DEBUG] #1 — dismissed SCOSTA dialog.
+2026-03-10 10:47:15,579 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:15,888 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:16,636 [DEBUG] Alert #3: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:47:16,645 [DEBUG] #3 — dismissed SCOSTA dialog.
+2026-03-10 10:47:16,841 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:17,205 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:21,886 [DEBUG] #5 — no alert.
+2026-03-10 10:47:22,058 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:22,390 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:23,166 [DEBUG] Alert #7: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:47:23,168 [DEBUG] #7 — dismissed SCOSTA dialog.
+2026-03-10 10:47:23,275 [DEBUG] Found lic field via: xpath=//label[contains(text(),'Numeric')]/following::input[1]
+2026-03-10 10:47:23,874 [DEBUG] Alert #8: Licence Already Issued.Do you want to generate next SCOSTA Number
+2026-03-10 10:47:23,881 [DEBUG] #8 — dismissed SCOSTA dialog.
+2026-03-10 10:47:24,108 [DEBUG] Saved: GJ01 20010000007 | KAMLESH  S  SHAH
+2026-03-10 10:47:24,237 [WARNING] #10 error: 'NoneType' object has no attribute 'is_displayed'
+2026-03-10 10:47:24,748 [INFO] Browser closed — stopping.
+2026-03-10 10:47:24,752 [INFO] Complete. 1 records saved.

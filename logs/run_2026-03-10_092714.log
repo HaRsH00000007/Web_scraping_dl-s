@@ -1,0 +1,7 @@
+2026-03-10 09:27:14,699 [INFO] Log file: logs\run_2026-03-10_092714.log
+2026-03-10 09:27:27,491 [INFO] Output file created: output\Gujarat_2026-03-10_092727.xlsx
+2026-03-10 09:27:41,425 [INFO] Browser ready.
+2026-03-10 09:29:57,662 [DEBUG] Alert: Details of given DL Number not available in the central Repository, On line applications provision is given only if the Driving Licence  Details  is available in the central Repository. However those candidates whose licence data not available in central Repository, can get the service by Concern RTO / RLA Authority. 
+2026-03-10 09:29:57,662 [DEBUG] Skipped error popup: Details of given DL Number not available in the central Repo
+2026-03-10 09:29:57,680 [INFO] Browser closed — stopping.
+2026-03-10 09:30:00,470 [INFO] Complete. 0 records saved.

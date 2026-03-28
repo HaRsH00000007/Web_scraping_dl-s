@@ -1,0 +1,22 @@
+2026-03-10 11:07:12,083 [INFO] Log file: logs\run_2026-03-10_110712.log
+2026-03-10 11:07:18,485 [INFO] Output file created: output\Gujarat_2026-03-10_110718.xlsx
+2026-03-10 11:07:23,605 [INFO] Connected to Sarathi tab: https://sarathi.parivahan.gov.in/sarathiservice/dlBacklogPublic.do?licNum=GJ12%2020050123456&dob=01-01-1980&moduleName=envaction.do
+2026-03-10 11:07:23,632 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:07:28,517 [DEBUG] #3 — no alert.
+2026-03-10 11:07:28,536 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:07:31,403 [DEBUG] Alert #4: Numeric Licence Number should not be empty and  must be greater than 0
+2026-03-10 11:07:31,413 [DEBUG] #4 — skipped: Numeric Licence Number should not be empty and  mu
+2026-03-10 11:07:31,463 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:07:36,361 [DEBUG] #5 — no alert.
+2026-03-10 11:07:36,382 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:07:41,553 [DEBUG] #6 — no alert.
+2026-03-10 11:07:41,569 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:07:46,445 [DEBUG] #7 — no alert.
+2026-03-10 11:07:46,474 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:07:51,351 [DEBUG] #8 — no alert.
+2026-03-10 11:07:51,367 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:07:56,427 [DEBUG] #9 — no alert.
+2026-03-10 11:07:56,450 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:08:01,322 [DEBUG] #10 — no alert.
+2026-03-10 11:08:01,339 [DEBUG] Found Numeric Lic No field via JS.
+2026-03-10 11:08:04,847 [INFO] Complete. 0 records saved.
